@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(../Downloads/pink.jpg);
+    background-image: url(../../Downloads/pink.jpg);
     background-size: cover; 
     background-position: center; 
     height: 75vh;  
@@ -17,7 +17,7 @@ body{
 }
 
 .caixaApp {
-    background-color: rgb(218, 6, 136);
+    background-color: rgb(247, 70, 179);
     width: 480px; /*modificar*/
     padding: 45px; /*modificar*/
     border-radius: 45px;
@@ -28,25 +28,63 @@ body{
     height: 100px;
     border: none;
     outline: none; /* borda quando clica*/
-    background-color: #fc7bc2fa; /*modificar*/
-    color: rgb(0, 0, 0); /*cor do texto - modificar*/
+    background-color: #f38af3fa; /*modificar*/
+    color: rgb(170, 35, 159); /*cor do texto - modificar*/
     padding: 15px; /*modificar - espaço interno*/
 }
 
 .traducao {
     padding: 15px;
-    background-color: #ff69c6;
+    background-color: #f38af3fa;
 }
 
 .traducao {
     font-size: 18px; 
-    color:#000000 ;
+    color:#a0369b ;
     /*modificar*/
 }
 
 .titulo-traducao {
-    color:#7a0335 ;
+    color:#f38af3fa;
     font-size: 14px;
     margin-bottom: 10px;
     border-radius: 15px;
+}
+
+.caixa-interna {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.idioma {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #f38af3fa;
+    color:#a0369b;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f38af3fa;
+    cursor:pointer;
+    color:#752471;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.idioma option {
+  background-color: #752471;
+  color: rgb(34, 52, 68);
+  border: none;
+  outline: none;
 }
